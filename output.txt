@@ -1,0 +1,29 @@
+
+compiling a.as
+compilation succeeded!
+
+
+compiling b.as
+line 25: error: Incorrect Amount Of Arguments For This Operation
+line 28: error: Invalid Argument Types For This Operation
+line 31: error: Incorrect Amount Of Arguments For This Operation
+line 37: error: Unknown Operation
+line 43: error: "EXISTS" can't be both extern and label
+line 46: error: Label Already Exists
+line 49: error: ':' Must Be Attached To The End Of The Label
+line 4: error: cannot use .entry on a non existent label
+line 9: error: instructions, operations, registers and other conserved words can't be defined
+line 12: error: define statement should be structured as such: ".define <name>=<value>"
+line 15: error: the defined value must be an integer
+line 18: warning: labels ignored when put on define statements
+line 34: error: unknown variable: MISSING
+compilation failed
+
+
+compiling c.as
+compilation succeeded!
+
+
+compiling d.as
+compilation succeeded!
+

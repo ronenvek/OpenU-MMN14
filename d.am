@@ -1,0 +1,16 @@
+.entry LIST 
+.extern LIST2
+.define size = 2 
+MAIN:	mov #0, r0
+		add LIST[0], r0
+		add LIST[1], r0
+L3:		dec r0
+		prn #size
+		mov #size, LIST[size]
+
+		cmp LIST2[0], r0
+		bne LIST2
+END:	hlt
+STR: .string "banana" 
+LIST: .data size, 70, -100
+.entry L3

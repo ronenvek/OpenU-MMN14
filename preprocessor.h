@@ -1,0 +1,1 @@
+char* create_am_file();

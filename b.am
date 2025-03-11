@@ -1,0 +1,16 @@
+.entry MISSING
+.extern EXISTS
+.define hlt = 1
+.define len, 9
+.define size = 2a
+label: .define len = 12
+AVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongLabel: mov r0, r1
+L0: dec r1, #2
+L1: jmp #100
+L2: sub EXISTS r3
+L3: inc MISSING
+L4: abc #12
+END: hlt
+EXISTS: .data 1
+END: .string "aaabbbccc"
+   LIST1 :   .string "abc"
